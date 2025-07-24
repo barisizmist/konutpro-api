@@ -23,7 +23,7 @@ app.use(
     optionsSuccessStatus: 204
   })
 );
-app.use(rateLimitter);
+// app.use(rateLimitter);
 app.use(express.json());
 
 app.use('/api/users', usersRouter);
